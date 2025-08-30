@@ -2,7 +2,7 @@
 
 A compatibility layer that converts BESTAOS API calls to Linux system calls, enabling HP Prime's firmware to run on other Linux ARM systems. The ultimate goal of this project is to replace the kernel of the HP Prime G1 from BESTAOS to Linux, addressing stability issues (at least it wont nuke the c driver and ruin the nand).
 
-Thanks to Project Muteki(https://github.com/Project-Muteki/muteki)'s efforts for making this project possible.
+Thanks to Project Muteki(https://github.com/Project-Muteki/muteki )'s efforts for making this project possible.
 
 ## How to Use
 
