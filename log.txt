@@ -1,0 +1,387 @@
+Emulation Start!
+Successfully allocated at 0x4c800000
+Successfully allocated at 0x57000000
+Successfully allocated at 0x51000000
+Info: Application compiled with sizeof(struct input_event) = 16
+    program: A:\dummy
+[DEBUG]check sdk version
+Load Libarary stub
+    program: A:\dummy
+[SystemCall] SDKLIB_GetApplicationHeadInfoA
+    program: A:\dummy
+--- _afnsplit called ---
+  [in] pathname: "A:\dummy"
+  [out] drive:    0x30df75b1
+  [out] dirname:  0x30df75b5
+  [out] basename: 0x30df75f8
+  [out] suffix:   (nil)
+  [debug] Extracted -> drive:"A:", dir:"\", base:"dummy", suffix:"N/A"
+  [return] 7
+
+--- _afnmerge called ---
+  [out] pathname: 0x30df7560
+  [in] drive:    "A:"
+  [in] dirname:  "\"
+  [in] basename: "dummy"
+  [in] suffix:   ".DAT"
+  [debug] Constructed -> pathname: "A:\dummy.DAT"
+  [return] 15
+
+Openfile : A:\dummy.DAT mode: rb
+Successfully opened keyboard: /dev/input/event0
+	+fopen called with pathname='A:\dummy.DAT', mode='rb',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/A/dummy.DAT
+filesize: 0x30df7be0,result:8896512
+[SystemCall] SDKLIB_SetSystemVariable
+[SystemCall] SDKLIB_SetSystemVariable
+[SystemCall] SDKLIB_SetAutoPowerOff
+[LCD]Got LCD 0x30d5e6e0 (pixel_bits=0)
+Screen: 1920x1080, 32bpp, stride: 7680 bytes
+[LCD]Got LCD 0x30d5e6e0 (pixel_bits=32)
+[LCD]Got LCD 0x30d5e6e0 (pixel_bits=32)
+[SystemCall] SDKLIB_InterruptDisable
+Interrupt thread initialized successfully.
+ID stub
+    +CreateFile_stub name:\\?\ARCH
+    +DeviceIoControl_stub file:\\?\ARCH request:260 sizein:0 sizeo:4
+    +CloseHandle_stub handle:1
+[Thread] Create thread:0x30dfd9f0
+[SystemCall] SDKLIB_GetEventType
+[SystemCall] SDKLIB_SetEventType
+GetPrivateProfileString
+    +appname: ENV
+    +keyName: PBITS
+    +default: 
+    +size: 100
+    +VM filename: C:\SYSTEM\MYSET.INI
+    +Mapped host path: /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/SYSTEM/MYSET.INI
+    +appname: ENV
+    +keyName: PBITS
+    +string: 3
+    +VM filename: C:\SYSTEM\MYSET.INI
+    +Mapped host path: /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/SYSTEM/MYSET.INI
+	+mkdir: C:\UPDATE
+	+change path to: C:\UPDATE
+	+change path to: C:\
+	+mkdir: C:\DATA
+	+change path to: C:\DATA
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA
+	+fopen called with pathname='C:\DATA\calc.hpsettings', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/calc.hpsettings
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA
+	+fopen called with pathname='C:\DATA\calc.hpvars', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/calc.hpvars
+	+mkdir: C:\DATA
+	+fopen called with pathname='C:\DATA\cas.hpsettings', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/cas.hpsettings
+	+mkdir: C:\DATA
+	+fopen called with pathname='C:\DATA\settings', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/settings
+ID stub
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Data Streamer.hpappdir
+	+fopen called with pathname='C:\DATA\&Data Streamer.hpappdir\&Data Streamer.hpappprgm', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Data Streamer.hpappdir/&Data Streamer.hpappprgm
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Data Streamer.hpappdir
+	+fopen called with pathname='C:\DATA\&Data Streamer.hpappdir\&Data Streamer.hpapp', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Data Streamer.hpappdir/&Data Streamer.hpapp
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Data Streamer.hpappdir
+	+fopen called with pathname='C:\DATA\&Data Streamer.hpappdir\&Data Streamer.hpapp', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Data Streamer.hpappdir/&Data Streamer.hpapp
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Data Streamer.hpappdir
+	+fopen called with pathname='C:\DATA\&Data Streamer.hpappdir\&Data Streamer.hpappvars', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Data Streamer.hpappdir/&Data Streamer.hpappvars
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Statistics 1Var.hpappdir
+	+fopen called with pathname='C:\DATA\&Statistics 1Var.hpappdir\&Statistics 1Var.hpappprgm', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Statistics 1Var.hpappdir/&Statistics 1Var.hpappprgm
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Statistics 1Var.hpappdir
+	+fopen called with pathname='C:\DATA\&Statistics 1Var.hpappdir\&Statistics 1Var.hpapp', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Statistics 1Var.hpappdir/&Statistics 1Var.hpapp
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Statistics 1Var.hpappdir
+	+fopen called with pathname='C:\DATA\&Statistics 1Var.hpappdir\&Statistics 1Var.hpapp', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Statistics 1Var.hpappdir/&Statistics 1Var.hpapp
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Statistics 1Var.hpappdir
+	+fopen called with pathname='C:\DATA\&Statistics 1Var.hpappdir\&Statistics 1Var.hpappvars', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Statistics 1Var.hpappdir/&Statistics 1Var.hpappvars
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&.hpappdir
+	+fopen called with pathname='C:\DATA\&.hpappdir\&.hpappprgm', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&.hpappdir/&.hpappprgm
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&.hpappdir
+	+fopen called with pathname='C:\DATA\&.hpappdir\&.hpapp', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&.hpappdir/&.hpapp
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&.hpappdir
+	+fopen called with pathname='C:\DATA\&.hpappdir\&.hpapp', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&.hpappdir/&.hpapp
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&.hpappdir
+	+fopen called with pathname='C:\DATA\&.hpappdir\&.hpappvars', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&.hpappdir/&.hpappvars
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Sequence.hpappdir
+	+fopen called with pathname='C:\DATA\&Sequence.hpappdir\&Sequence.hpappprgm', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Sequence.hpappdir/&Sequence.hpappprgm
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Sequence.hpappdir
+	+fopen called with pathname='C:\DATA\&Sequence.hpappdir\&Sequence.hpapp', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Sequence.hpappdir/&Sequence.hpapp
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Sequence.hpappdir
+	+fopen called with pathname='C:\DATA\&Sequence.hpappdir\&Sequence.hpapp', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Sequence.hpappdir/&Sequence.hpapp
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Sequence.hpappdir
+	+fopen called with pathname='C:\DATA\&Sequence.hpappdir\&Sequence.hpappvars', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Sequence.hpappdir/&Sequence.hpappvars
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Solve.hpappdir
+	+fopen called with pathname='C:\DATA\&Solve.hpappdir\&Solve.hpappprgm', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Solve.hpappdir/&Solve.hpappprgm
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Solve.hpappdir
+	+fopen called with pathname='C:\DATA\&Solve.hpappdir\&Solve.hpapp', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Solve.hpappdir/&Solve.hpapp
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Solve.hpappdir
+	+fopen called with pathname='C:\DATA\&Solve.hpappdir\&Solve.hpapp', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Solve.hpappdir/&Solve.hpapp
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Solve.hpappdir
+	+fopen called with pathname='C:\DATA\&Solve.hpappdir\&Solve.hpappvars', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Solve.hpappdir/&Solve.hpappvars
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Finance.hpappdir
+	+fopen called with pathname='C:\DATA\&Finance.hpappdir\&Finance.hpappprgm', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Finance.hpappdir/&Finance.hpappprgm
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Finance.hpappdir
+	+fopen called with pathname='C:\DATA\&Finance.hpappdir\&Finance.hpapp', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Finance.hpappdir/&Finance.hpapp
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Finance.hpappdir
+	+fopen called with pathname='C:\DATA\&Finance.hpappdir\&Finance.hpapp', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Finance.hpappdir/&Finance.hpapp
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Finance.hpappdir
+	+fopen called with pathname='C:\DATA\&Finance.hpappdir\&Finance.hpappvars', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Finance.hpappdir/&Finance.hpappvars
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Graph 3D.hpappdir
+	+fopen called with pathname='C:\DATA\&Graph 3D.hpappdir\&Graph 3D.hpappprgm', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Graph 3D.hpappdir/&Graph 3D.hpappprgm
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Graph 3D.hpappdir
+	+fopen called with pathname='C:\DATA\&Graph 3D.hpappdir\&Graph 3D.hpapp', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Graph 3D.hpappdir/&Graph 3D.hpapp
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Graph 3D.hpappdir
+	+fopen called with pathname='C:\DATA\&Graph 3D.hpappdir\&Graph 3D.hpapp', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Graph 3D.hpappdir/&Graph 3D.hpapp
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Graph 3D.hpappdir
+	+fopen called with pathname='C:\DATA\&Graph 3D.hpappdir\&Graph 3D.hpappvars', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Graph 3D.hpappdir/&Graph 3D.hpappvars
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Inference.hpappdir
+	+fopen called with pathname='C:\DATA\&Inference.hpappdir\&Inference.hpappprgm', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Inference.hpappdir/&Inference.hpappprgm
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Inference.hpappdir
+	+fopen called with pathname='C:\DATA\&Inference.hpappdir\&Inference.hpapp', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Inference.hpappdir/&Inference.hpapp
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Inference.hpappdir
+	+fopen called with pathname='C:\DATA\&Inference.hpappdir\&Inference.hpapp', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Inference.hpappdir/&Inference.hpapp
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Inference.hpappdir
+	+fopen called with pathname='C:\DATA\&Inference.hpappdir\&Inference.hpappvars', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Inference.hpappdir/&Inference.hpappvars
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Explorer.hpappdir
+	+fopen called with pathname='C:\DATA\&Explorer.hpappdir\&Explorer.hpappprgm', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Explorer.hpappdir/&Explorer.hpappprgm
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Explorer.hpappdir
+	+fopen called with pathname='C:\DATA\&Explorer.hpappdir\&Explorer.hpapp', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Explorer.hpappdir/&Explorer.hpapp
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Explorer.hpappdir
+	+fopen called with pathname='C:\DATA\&Explorer.hpappdir\&Explorer.hpapp', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Explorer.hpappdir/&Explorer.hpapp
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Explorer.hpappdir
+	+fopen called with pathname='C:\DATA\&Explorer.hpappdir\&Explorer.hpappvars', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Explorer.hpappdir/&Explorer.hpappvars
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Polar.hpappdir
+	+fopen called with pathname='C:\DATA\&Polar.hpappdir\&Polar.hpappprgm', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Polar.hpappdir/&Polar.hpappprgm
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Polar.hpappdir
+	+fopen called with pathname='C:\DATA\&Polar.hpappdir\&Polar.hpapp', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Polar.hpappdir/&Polar.hpapp
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Polar.hpappdir
+	+fopen called with pathname='C:\DATA\&Polar.hpappdir\&Polar.hpapp', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Polar.hpappdir/&Polar.hpapp
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Polar.hpappdir
+	+fopen called with pathname='C:\DATA\&Polar.hpappdir\&Polar.hpappvars', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Polar.hpappdir/&Polar.hpappvars
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Parametric.hpappdir
+	+fopen called with pathname='C:\DATA\&Parametric.hpappdir\&Parametric.hpappprgm', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Parametric.hpappdir/&Parametric.hpappprgm
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Parametric.hpappdir
+	+fopen called with pathname='C:\DATA\&Parametric.hpappdir\&Parametric.hpapp', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Parametric.hpappdir/&Parametric.hpapp
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Parametric.hpappdir
+	+fopen called with pathname='C:\DATA\&Parametric.hpappdir\&Parametric.hpapp', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Parametric.hpappdir/&Parametric.hpapp
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Parametric.hpappdir
+	+fopen called with pathname='C:\DATA\&Parametric.hpappdir\&Parametric.hpappvars', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Parametric.hpappdir/&Parametric.hpappvars
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Advanced Graphing.hpappdir
+	+fopen called with pathname='C:\DATA\&Advanced Graphing.hpappdir\&Advanced Graphing.hpappprgm', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Advanced Graphing.hpappdir/&Advanced Graphing.hpappprgm
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Advanced Graphing.hpappdir
+	+fopen called with pathname='C:\DATA\&Advanced Graphing.hpappdir\&Advanced Graphing.hpapp', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Advanced Graphing.hpappdir/&Advanced Graphing.hpapp
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Advanced Graphing.hpappdir
+	+fopen called with pathname='C:\DATA\&Advanced Graphing.hpappdir\&Advanced Graphing.hpapp', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Advanced Graphing.hpappdir/&Advanced Graphing.hpapp
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Advanced Graphing.hpappdir
+	+fopen called with pathname='C:\DATA\&Advanced Graphing.hpappdir\&Advanced Graphing.hpappvars', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Advanced Graphing.hpappdir/&Advanced Graphing.hpappvars
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Triangle Solver.hpappdir
+	+fopen called with pathname='C:\DATA\&Triangle Solver.hpappdir\&Triangle Solver.hpappprgm', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Triangle Solver.hpappdir/&Triangle Solver.hpappprgm
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Triangle Solver.hpappdir
+	+fopen called with pathname='C:\DATA\&Triangle Solver.hpappdir\&Triangle Solver.hpapp', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Triangle Solver.hpappdir/&Triangle Solver.hpapp
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Triangle Solver.hpappdir
+	+fopen called with pathname='C:\DATA\&Triangle Solver.hpappdir\&Triangle Solver.hpapp', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Triangle Solver.hpappdir/&Triangle Solver.hpapp
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Triangle Solver.hpappdir
+	+fopen called with pathname='C:\DATA\&Triangle Solver.hpappdir\&Triangle Solver.hpappvars', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Triangle Solver.hpappdir/&Triangle Solver.hpappvars
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Statistics 2Var.hpappdir
+	+fopen called with pathname='C:\DATA\&Statistics 2Var.hpappdir\&Statistics 2Var.hpappprgm', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Statistics 2Var.hpappdir/&Statistics 2Var.hpappprgm
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Statistics 2Var.hpappdir
+	+fopen called with pathname='C:\DATA\&Statistics 2Var.hpappdir\&Statistics 2Var.hpapp', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Statistics 2Var.hpappdir/&Statistics 2Var.hpapp
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Statistics 2Var.hpappdir
+	+fopen called with pathname='C:\DATA\&Statistics 2Var.hpappdir\&Statistics 2Var.hpapp', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Statistics 2Var.hpappdir/&Statistics 2Var.hpapp
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Statistics 2Var.hpappdir
+	+fopen called with pathname='C:\DATA\&Statistics 2Var.hpappdir\&Statistics 2Var.hpappvars', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Statistics 2Var.hpappdir/&Statistics 2Var.hpappvars
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Function.hpappdir
+	+fopen called with pathname='C:\DATA\&Function.hpappdir\&Function.hpappprgm', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Function.hpappdir/&Function.hpappprgm
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Function.hpappdir
+	+fopen called with pathname='C:\DATA\&Function.hpappdir\&Function.hpapp', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Function.hpappdir/&Function.hpapp
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Function.hpappdir
+	+fopen called with pathname='C:\DATA\&Function.hpappdir\&Function.hpapp', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Function.hpappdir/&Function.hpapp
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Function.hpappdir
+	+fopen called with pathname='C:\DATA\&Function.hpappdir\&Function.hpappvars', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Function.hpappdir/&Function.hpappvars
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Geometry.hpappdir
+	+fopen called with pathname='C:\DATA\&Geometry.hpappdir\&Geometry.hpappprgm', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Geometry.hpappdir/&Geometry.hpappprgm
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Geometry.hpappdir
+	+fopen called with pathname='C:\DATA\&Geometry.hpappdir\&Geometry.hpapp', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Geometry.hpappdir/&Geometry.hpapp
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Geometry.hpappdir
+	+fopen called with pathname='C:\DATA\&Geometry.hpappdir\&Geometry.hpapp', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Geometry.hpappdir/&Geometry.hpapp
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Geometry.hpappdir
+	+fopen called with pathname='C:\DATA\&Geometry.hpappdir\&Geometry.hpappvars', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Geometry.hpappdir/&Geometry.hpappvars
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Linear Solver.hpappdir
+	+fopen called with pathname='C:\DATA\&Linear Solver.hpappdir\&Linear Solver.hpappprgm', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Linear Solver.hpappdir/&Linear Solver.hpappprgm
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Linear Solver.hpappdir
+	+fopen called with pathname='C:\DATA\&Linear Solver.hpappdir\&Linear Solver.hpapp', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Linear Solver.hpappdir/&Linear Solver.hpapp
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Linear Solver.hpappdir
+	+fopen called with pathname='C:\DATA\&Linear Solver.hpappdir\&Linear Solver.hpapp', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Linear Solver.hpappdir/&Linear Solver.hpapp
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Linear Solver.hpappdir
+	+fopen called with pathname='C:\DATA\&Linear Solver.hpappdir\&Linear Solver.hpappvars', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Linear Solver.hpappdir/&Linear Solver.hpappvars
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Spreadsheet.hpappdir
+	+fopen called with pathname='C:\DATA\&Spreadsheet.hpappdir\&Spreadsheet.hpappprgm', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Spreadsheet.hpappdir/&Spreadsheet.hpappprgm
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Spreadsheet.hpappdir
+	+fopen called with pathname='C:\DATA\&Spreadsheet.hpappdir\&Spreadsheet.hpapp', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Spreadsheet.hpappdir/&Spreadsheet.hpapp
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Spreadsheet.hpappdir
+	+fopen called with pathname='C:\DATA\&Spreadsheet.hpappdir\&Spreadsheet.hpapp', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Spreadsheet.hpappdir/&Spreadsheet.hpapp
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Spreadsheet.hpappdir
+	+fopen called with pathname='C:\DATA\&Spreadsheet.hpappdir\&Spreadsheet.hpappvars', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Spreadsheet.hpappdir/&Spreadsheet.hpappvars
+	+mkdir: C:\DATA
+	+fopen called with pathname='C:\DATA\HelpEn.hpresource', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/HelpEn.hpresource
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&.hpappdir
+	+fopen called with pathname='C:\DATA\&.hpappdir\&.hpapp', mode='wb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&.hpappdir/&.hpapp
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&.hpappdir
+	+fopen called with pathname='C:\DATA\&.hpappdir\&.hpappnote', mode='wb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&.hpappdir/&.hpappnote
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&.hpappdir
+	+fopen called with pathname='C:\DATA\&.hpappdir\&.hpappprgm', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&.hpappdir/&.hpappprgm
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Data Streamer.hpappdir
+	+fopen called with pathname='C:\DATA\&Data Streamer.hpappdir\&Data Streamer.hpapp', mode='wb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Data Streamer.hpappdir/&Data Streamer.hpapp
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Data Streamer.hpappdir
+	+fopen called with pathname='C:\DATA\&Data Streamer.hpappdir\&Data Streamer.hpappnote', mode='wb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Data Streamer.hpappdir/&Data Streamer.hpappnote
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Data Streamer.hpappdir
+	+fopen called with pathname='C:\DATA\&Data Streamer.hpappdir\&Data Streamer.hpappprgm', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Data Streamer.hpappdir/&Data Streamer.hpappprgm
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Data Streamer.hpappdir
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Data Streamer.hpappdir
+	+fopen called with pathname='C:\DATA\&Data Streamer.hpappdir\&Data Streamer.hpapp', mode='wb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Data Streamer.hpappdir/&Data Streamer.hpapp
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Data Streamer.hpappdir
+	+fopen called with pathname='C:\DATA\&Data Streamer.hpappdir\&Data Streamer.hpappnote', mode='wb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Data Streamer.hpappdir/&Data Streamer.hpappnote
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Data Streamer.hpappdir
+	+fopen called with pathname='C:\DATA\&Data Streamer.hpappdir\&Data Streamer.hpappprgm', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/&Data Streamer.hpappdir/&Data Streamer.hpappprgm
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA\&Data Streamer.hpappdir
+	+mkdir: C:\DATA
+    +CreateFile_stub name:\\?\BACK
+    +DeviceIoControl_stub file:\\?\BACK request:265 sizein:0 sizeo:4
+[SystemCall] SDKLIB_SetSystemVariable
+    +CloseHandle_stub handle:2
+	+mkdir: C:\DATA
+	+fopen called with pathname='C:\DATA\M0.hpmat', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/M0.hpmat
+	+mkdir: C:\DATA
+	+fopen called with pathname='C:\DATA\M1.hpmat', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/M1.hpmat
+	+mkdir: C:\DATA
+	+fopen called with pathname='C:\DATA\M2.hpmat', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/M2.hpmat
+	+mkdir: C:\DATA
+	+fopen called with pathname='C:\DATA\M3.hpmat', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/M3.hpmat
+	+mkdir: C:\DATA
+	+fopen called with pathname='C:\DATA\M4.hpmat', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/M4.hpmat
+	+mkdir: C:\DATA
+	+fopen called with pathname='C:\DATA\M5.hpmat', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/M5.hpmat
+	+mkdir: C:\DATA
+	+fopen called with pathname='C:\DATA\M6.hpmat', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/M6.hpmat
+	+mkdir: C:\DATA
+	+fopen called with pathname='C:\DATA\M7.hpmat', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/M7.hpmat
+	+mkdir: C:\DATA
+	+fopen called with pathname='C:\DATA\M8.hpmat', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/M8.hpmat
+	+mkdir: C:\DATA
+	+fopen called with pathname='C:\DATA\M9.hpmat', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/M9.hpmat
+	+mkdir: C:\DATA
+	+fopen called with pathname='C:\DATA\L0.hplist', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/L0.hplist
+	+mkdir: C:\DATA
+	+fopen called with pathname='C:\DATA\L1.hplist', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/L1.hplist
+	+mkdir: C:\DATA
+	+fopen called with pathname='C:\DATA\L2.hplist', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/L2.hplist
+	+mkdir: C:\DATA
+	+fopen called with pathname='C:\DATA\L3.hplist', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/L3.hplist
+	+mkdir: C:\DATA
+	+fopen called with pathname='C:\DATA\L4.hplist', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/L4.hplist
+	+mkdir: C:\DATA
+	+fopen called with pathname='C:\DATA\L5.hplist', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/L5.hplist
+	+mkdir: C:\DATA
+	+fopen called with pathname='C:\DATA\L6.hplist', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/L6.hplist
+	+mkdir: C:\DATA
+	+fopen called with pathname='C:\DATA\L7.hplist', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/L7.hplist
+	+mkdir: C:\DATA
+	+fopen called with pathname='C:\DATA\L8.hplist', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/L8.hplist
+	+mkdir: C:\DATA
+	+fopen called with pathname='C:\DATA\L9.hplist', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/L9.hplist
+	+mkdir: C:\DATA
+	+mkdir: C:\DATA
+	+fopen called with pathname='C:\DATA\HelpZh.hpresource', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/HelpZh.hpresource
+	+mkdir: C:\DATA
+	+fopen called with pathname='C:\DATA\HelpFr.hpresource', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/HelpFr.hpresource
+	+mkdir: C:\DATA
+	+fopen called with pathname='C:\DATA\HelpDe.hpresource', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/HelpDe.hpresource
+	+mkdir: C:\DATA
+	+fopen called with pathname='C:\DATA\HelpEs.hpresource', mode='rb+',mapped to /home/kali/qemuPrime/build/firmware/PrimeU2025/prime_data/C/DATA/HelpEs.hpresource
+	+mkdir: C:\DATA
+	+fopen called with pathname='C:\DATA\HelpNl.hpre
